@@ -31,7 +31,7 @@ const Register = () => {
   };
 
   useEffect(() => {
-   setAllError(error?.message || gError?.message || updateError.message);
+   setAllError(error?.message || gError?.message || updateError?.message);
  }, [error || gError || updateError]);
 
   if(loading || gLoading || eUpdating) {
