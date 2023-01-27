@@ -11,9 +11,11 @@ const Home = () => {
 
   console.log(users);
   return (
-    <div className="flex justify-center my-5">
-      <div className=" max-w-full px-3">
-        <table className="max-w-full">
+    <div className="flex justify-center my-5 w-full">
+
+      <div className="max-w-full px-3">
+      <h1 className="font-bold text-2xl p-5">User List</h1>
+        <table className="w-full">
           <div className="flex justify-between font-bold p-5 mb-4 bg-base-200 rounded-lg">
             <h1>Photo</h1>
             <h1>Name</h1>
